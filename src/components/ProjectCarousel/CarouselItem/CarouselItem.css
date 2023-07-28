@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+
+.carouselItem-cont {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  padding: 0 8px;
+}
+
+.carouselItem-textCont {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: left;
+  padding: 0 0 0 20px;
+  width: 50%;
+}
+
+.carouselItem-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.3rem;
+}
+
+.carouselItem-description {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.1rem;
+  white-space: normal;
+  color: #000;
+}
+.carouselItem-img {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2rem 0;
+}
+
+.carouselItem-cont a {
+  width: 50%;
+  margin-right: 15px;
+}
+
+.shadow {
+  box-shadow: 0px 0px 7px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 7px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 7px -3px rgba(0, 0, 0, 0.75);
+}
+
+.shadow:hover {
+  box-shadow: 0px 0px 7px 0px #363635;
+  -webkit-box-shadow: 0px 0px 7px 0px #363635;
+  -moz-box-shadow: 0px 0px 7px 0px #363635;
+}
+
+@media (max-width: 768px) {
+  .carouselItem-cont {
+    flex-flow: column nowrap;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .carouselItem-cont a {
+    width: 100%;
+    max-width: 404px;
+    padding: 0 4px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .carouselItem-img {
+    margin-bottom: 0;
+  }
+  .carouselItem-textCont {
+    width: 100%;
+    max-width: 400px;
+    margin: 2rem 0 0 0;
+    box-sizing: border-box;
+    padding: 0 4px;
+  }
+}

@@ -1,0 +1,35 @@
+.contact-cont {
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  margin: 8px 15px;
+}
+
+.contact-img {
+  height: 40px;
+  margin-right: 8px;
+}
+
+.contact-text,
+.contact-link {
+  margin: auto;
+  color: #ff7e6b;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.contact-link .contact-text:hover {
+  color: #ebfcfb;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 300px) {
+  .contact-text {
+    font-size: 0.7rem; /* Fallback */
+    font-size: 5vw;
+  }
+}

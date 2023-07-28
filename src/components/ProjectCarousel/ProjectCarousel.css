@@ -1,0 +1,53 @@
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+/* final stage */
+
+.carousel-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.button-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.indicators {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.indicator-buttons {
+  border: none;
+  cursor: pointer;
+}
+
+.indicators > button {
+  margin: 5px;
+  background: none;
+}
+
+.indicator-symbol-active {
+  color: #000;
+}
+
+@media (max-width: 400px) {
+  .indicators > button {
+    margin: 0;
+  }
+}
+
+@media (max-width: 300px) {
+  .indicators > button {
+    padding: 0;
+  }
+}
