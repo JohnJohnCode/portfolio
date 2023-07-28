@@ -69,7 +69,7 @@ function App() {
           <p className='about-text'>My hobbies include creating music, learning languages, programming and gaming, among other activities. I consider myself a creative person that has a thirst for knowledge. I love creating and learning new things and undertaking new challenges!</p>
         </div>
         <figure>
-          <img className='me' src='src/assets/sexy_man.png' alt='a picture of me' />
+          <img className='me' src='src/assets/about/sexy_man.png' alt='a picture of me' />
         </figure>
       </article>
       <article id='Tech-stack' className='skills-cont'>
