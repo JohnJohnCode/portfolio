@@ -69,24 +69,24 @@ function App() {
           <p className='about-text'>My hobbies include creating music, learning languages, programming and gaming, among other activities. I consider myself a creative person that has a thirst for knowledge. I love creating and learning new things and undertaking new challenges!</p>
         </div>
         <figure>
-          <img className='me' src='/assets/about/sexy_man.png' alt='a picture of me' />
+          <img className='me' src='./assets/about/sexy_man.png' alt='a picture of me' />
         </figure>
       </article>
       <article id='Tech-stack' className='skills-cont'>
         <h2 className='skills-header'>My tech stack</h2>
         <div className='skills' ref={(el) => el && (observerRefs.current[2] = el)}>
-          <SkillTile skillName={'JavaScript'} srcPath={'/assets/skills/Unofficial_JavaScript_logo_2.svg'} alt={'JavaScript logo'} />
-          <SkillTile skillName={'HTML'} srcPath={'/assets/skills/HTML5 Logo.svg'} alt={'HTML logo'} />
-          <SkillTile skillName={'CSS'} srcPath={'/assets/skills/CSS3_logo_and_wordmark.svg'} alt={'CSS logo'} />
-          <SkillTile skillName={'Sass'} srcPath={'/assets/skills/Sass_Logo_Color.svg'} alt={'Sass logo'} />
-          <SkillTile skillName={'Bootstrap'} srcPath={'/assets/skills/Bootstrap_logo.svg'} alt={'Bootstrap logo'} />
-          <SkillTile skillName={'React'} srcPath={'/assets/skills/react.svg'} alt={'React logo'} />
-          <SkillTile skillName={'Node JS'} srcPath={'/assets/skills/icons8-node-js-240.png'} alt={'Node JS logo'} />
-          <SkillTile skillName={'Express JS'} srcPath={'/assets/skills/icons8-express-js.svg'} alt={'Express JS logo'} />
-          <SkillTile skillName={'TypeScript'} srcPath={'/assets/skills/Typescript_logo_2020.svg'} alt={'TypeScript logo'} />
-          <SkillTile skillName={'MongoDB'} srcPath={'/assets/skills/icons8-mongodb-240.png'} alt={'MongoDB logo'} />
-          <SkillTile skillName={'Mongoose'} srcPath={'/assets/skills/icons8-mongoose-240.png'} alt={'Mongoose logo'} />
-          <SkillTile skillName={'Pug'} srcPath={'/assets/skills/pugjs.svg'} alt={'PugJS logo'} />
+          <SkillTile skillName={'JavaScript'} srcPath={'./assets/skills/Unofficial_JavaScript_logo_2.svg'} alt={'JavaScript logo'} />
+          <SkillTile skillName={'HTML'} srcPath={'./assets/skills/HTML5 Logo.svg'} alt={'HTML logo'} />
+          <SkillTile skillName={'CSS'} srcPath={'./assets/skills/CSS3_logo_and_wordmark.svg'} alt={'CSS logo'} />
+          <SkillTile skillName={'Sass'} srcPath={'./assets/skills/Sass_Logo_Color.svg'} alt={'Sass logo'} />
+          <SkillTile skillName={'Bootstrap'} srcPath={'./assets/skills/Bootstrap_logo.svg'} alt={'Bootstrap logo'} />
+          <SkillTile skillName={'React'} srcPath={'./assets/skills/react.svg'} alt={'React logo'} />
+          <SkillTile skillName={'Node JS'} srcPath={'./assets/skills/icons8-node-js-240.png'} alt={'Node JS logo'} />
+          <SkillTile skillName={'Express JS'} srcPath={'./assets/skills/icons8-express-js.svg'} alt={'Express JS logo'} />
+          <SkillTile skillName={'TypeScript'} srcPath={'./assets/skills/Typescript_logo_2020.svg'} alt={'TypeScript logo'} />
+          <SkillTile skillName={'MongoDB'} srcPath={'./assets/skills/icons8-mongodb-240.png'} alt={'MongoDB logo'} />
+          <SkillTile skillName={'Mongoose'} srcPath={'./assets/skills/icons8-mongoose-240.png'} alt={'Mongoose logo'} />
+          <SkillTile skillName={'Pug'} srcPath={'./assets/skills/pugjs.svg'} alt={'PugJS logo'} />
         </div>
       </article>
       <article id='Projects' className='projects-cont'>
@@ -98,10 +98,10 @@ function App() {
       <footer id='Contact'>
         <h2 className='contact-title'>You can reach or check me out here</h2>
         <div className='contactItems-cont' ref={(el) => el && (observerRefs.current[4] = el)}>
-          <ContactItem srcPath={'/assets/contacts/icons8-mail.svg'} text={'daniel.kobliha@gmail.com'} />
-          <ContactItem srcPath={'/assets/contacts/icons8-phone.svg'} text={'+420 777 799 991'} />
-          <ContactItem srcPath={'/assets/contacts/icons8-linkedin.svg'} text={'Daniel Kobliha'} link={'https://www.linkedin.com/in/daniel-kobliha-453981285/'}/>
-          <ContactItem srcPath={'/assets/contacts/icons8-github.svg'} text={'JohnJohnCode'} link={'https://github.com/johnjohncode'} />
+          <ContactItem srcPath={'./assets/contacts/icons8-mail.svg'} text={'daniel.kobliha@gmail.com'} />
+          <ContactItem srcPath={'./assets/contacts/icons8-phone.svg'} text={'+420 777 799 991'} />
+          <ContactItem srcPath={'./assets/contacts/icons8-linkedin.svg'} text={'Daniel Kobliha'} link={'https://www.linkedin.com/in/daniel-kobliha-453981285/'}/>
+          <ContactItem srcPath={'./assets/contacts/icons8-github.svg'} text={'JohnJohnCode'} link={'https://github.com/johnjohncode'} />
         </div>
       </footer>
     </>
