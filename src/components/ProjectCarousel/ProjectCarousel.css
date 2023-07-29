@@ -5,6 +5,13 @@
 
 /* final stage */
 
+.material-symbols-outlined[content="arrow_forward_ios"],
+.material-symbols-outlined[content="radio_button_checked"],
+.material-symbols-outlined[content="radio_button_unchecked"],
+.material-symbols-outlined[content="arrow_back_ios"] {
+  color: black
+}
+
 .carousel-buttons {
   width: 100%;
   display: flex;
@@ -16,14 +23,14 @@
   background: none;
   border: none;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 1rem;
 }
 
 .indicators {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 1rem;
 }
 
 .indicator-buttons {
@@ -48,6 +55,10 @@
 
 @media (max-width: 300px) {
   .indicators > button {
+    padding: 0;
+  }
+  .button-arrow {
+    margin: 1rem 0 0 0;
     padding: 0;
   }
 }

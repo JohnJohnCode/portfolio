@@ -58,8 +58,10 @@ function App() {
            <p className='typing-demo-medium-1' ref={(el) => el && (observerRefs.current[0] = el)}>Hello! My name is <strong className='name'>Daniel Kobliha</strong> and</p>           
            <p className='typing-demo-medium-2'>I'm a young and aspiring web developer!</p>           
           </div>
-          ) : (             
-          <p className='typing-demo-big' ref={(el) => el && (observerRefs.current[0] = el)}>Hello! My name is <strong className='name'>Daniel Kobliha</strong> and I'm a young and aspiring web developer!</p>           
+          ) : (  
+          <div className='typing-demo-cont'>
+            <p className='typing-demo-big' ref={(el) => el && (observerRefs.current[0] = el)}>Hello! My name is <strong className='name'>Daniel Kobliha</strong> and I'm a young and aspiring web developer!</p>
+          </div>           
          )
         }
       </header>
