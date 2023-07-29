@@ -40,7 +40,7 @@ const projects = [
   },
   {
     srcPath: "./assets/projects/portfolio.png",
-    description: `This project is the very site you're on! The goal was to present myself, my projects and tech stack. This portfolio was initialised with Vite and written in React.`,
+    description: `This project is the very site you're on! The goal was to present myself, my projects and tech stack. This portfolio was initialised with Vite and written in React and TypeScript.`,
     title: "Portfolio",
     link: "https://github.com/JohnJohnCode/portfolio",
     alt: "Screenshot of my project",
