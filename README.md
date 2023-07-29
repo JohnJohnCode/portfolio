@@ -7,7 +7,7 @@ This portfolio contains a home section, an about me section where I describe mys
 
 ## Tech Stack
 
-**Client:** React, CSS
+**Client:** React, TypeScript, CSS
 
 
 ## License
