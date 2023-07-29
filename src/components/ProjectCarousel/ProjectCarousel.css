@@ -3,15 +3,6 @@
   transition: transform 0.3s;
 }
 
-/* final stage */
-
-.material-symbols-outlined[content="arrow_forward_ios"],
-.material-symbols-outlined[content="radio_button_checked"],
-.material-symbols-outlined[content="radio_button_unchecked"],
-.material-symbols-outlined[content="arrow_back_ios"] {
-  color: black
-}
-
 .carousel-buttons {
   width: 100%;
   display: flex;
@@ -24,6 +15,7 @@
   border: none;
   cursor: pointer;
   margin-top: 1rem;
+  padding: 0;
 }
 
 .indicators {
@@ -39,26 +31,10 @@
 }
 
 .indicators > button {
-  margin: 5px;
+  margin: 0;
   background: none;
 }
 
 .indicator-symbol-active {
   color: #000;
-}
-
-@media (max-width: 400px) {
-  .indicators > button {
-    margin: 0;
-  }
-}
-
-@media (max-width: 300px) {
-  .indicators > button {
-    padding: 0;
-  }
-  .button-arrow {
-    margin: 1rem 0 0 0;
-    padding: 0;
-  }
 }

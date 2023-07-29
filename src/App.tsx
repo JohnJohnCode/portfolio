@@ -20,7 +20,15 @@ function App() {
       }
   }
 
-  window.addEventListener('scroll', changeClass);
+  useEffect(() => {
+    // Add the event listener when the component mounts
+    window.addEventListener('scroll', changeClass);
+
+    // Clean up the event listener when the setClasses function runs
+    return () => {
+      window.removeEventListener('scroll', changeClass);
+    };
+  }, [setClasses]);
 
   // Handle window-resize to achieve responsive navbar
   useEffect(() => {
