@@ -47,7 +47,7 @@
 .dropdown-cont {
   width: 100%;
   color: #ff7e6b;
-  padding: 2px;
+  padding: .2rem .3rem;
 }
 
 .dropdown-content {
@@ -65,7 +65,7 @@
 }
 
 .material-symbols-outlined[content="menu"] {
-  color: #ff7e6b;
+  color: #6666;
 }
 
 @media (max-width: 510px) {

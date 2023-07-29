@@ -47,6 +47,11 @@ const projects = [
   },
 ];
 
+const buttonStyles = {
+  fontSize: '1.5rem',
+  color: '#000000'
+}
+
 function ProjectCarousel() {
   const [activeIndex, setActiveIndex] = useState<number>(0);
 
@@ -86,7 +91,7 @@ function ProjectCarousel() {
             updateIndex(activeIndex - 1);
           }}
         >
-          <span className="material-symbols-outlined">arrow_back_ios</span>{" "}
+          <span className="material-symbols-outlined" style={buttonStyles}>arrow_back_ios</span>{" "}
         </button>
         <div className="indicators">
           {projects.map((_item, index) => {
@@ -104,6 +109,7 @@ function ProjectCarousel() {
                       ? "indicator-symbol-active"
                       : "indicator-symbol"
                   }`}
+                  style={buttonStyles}
                 >
                   {index === activeIndex
                     ? "radio_button_checked"
@@ -119,7 +125,7 @@ function ProjectCarousel() {
             updateIndex(activeIndex + 1);
           }}
         >
-          <span className="material-symbols-outlined">arrow_forward_ios</span>
+          <span className="material-symbols-outlined" style={buttonStyles}>arrow_forward_ios</span>
         </button>
       </div>
     </>
